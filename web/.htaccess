@@ -1,0 +1,2 @@
+#This allows you to redirect index.html to a specific subfolder
+#Redirect /index.php http://ereadiness2018.ebpls.com/web/

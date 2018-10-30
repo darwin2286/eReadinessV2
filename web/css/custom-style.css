@@ -1,0 +1,96 @@
+.header-no-margin{
+    margin:0;
+}
+.no-padding{
+    padding: 0px !important;
+}
+.no-side-padding{
+    padding-right:0px !important;
+    padding-left:0px !important;
+}
+.font-weight__400{
+    font-weight: 400;
+}
+.font-weight__normal{
+    font-weight:normal;
+}
+.font-weight__bold{
+    font-weight:bold;
+}
+div.panel, div.panel-heading{
+    border-radius: 0;
+}
+div#panel-heading-title.panel-heading{
+    padding-top:25px !important;
+    padding-bottom:25px !important;
+}
+
+div.no-panel-border.panel {
+    border: none !important;
+    box-shadow: none;
+}
+
+div.form-control .new-application-types {
+    width: 365px;
+}
+div#total-registered-businesses_section > div.types-of-new-application > div.form-group, div#total-registered-businesses_section > div.types-of-renewed-application > div.form-group {
+    margin-bottom:25px;
+}
+
+input.form-control{
+    width:365px !important;
+}
+table.table{
+    margin-bottom:0px !important;
+}
+
+/** Background Colors **/
+.primary {
+    background-color: #2c3e50 !important;
+}
+table.hr-capacity-table > thead > tr > th{
+    text-align: center;
+    vertical-align:middle;
+}
+
+table.hr-capacity-table > tbody.number-of-emp-office > tr > td:first-child > div.form-group{
+   margin-bottom:0px !important;
+}
+table.ict-environment-table{
+    margin-bottom:20px !important;
+}
+div.os-workstations-cb > .form-group {
+    margin-bottom:0px !important;
+}
+
+h4.network-categories > div.form-group {
+    margin-bottom:0px !important;
+}
+
+div.netTitle > label{
+    margin-bottom:0px !important;
+}
+
+div.cloudwid {
+    height:auto !important;
+}
+div#lgusecurity-issp > label, div#lgusecurity-protectionscheme > label, div#psgcmunicipalitycity-level > label, div#lguprofile-lcetermid > label {
+    margin-right:15px;
+}
+
+/** CLOUD COMPUTING **/
+div.field-lgucloud-provider1 > div.help-block, div.field-lgucloud-provider2 > div.help-block{
+    margin:0px !important;
+}
+
+/* Radio Button List and Checkbox List*/
+
+div#lguprofile-incomeclassid > label{
+    display:block;
+}
+
+div#lguosadmin-osworkstation > label, div#lguosadmin-osserver > label{
+    display:inline-block;
+    width:300px;
+    padding:8px 15px;
+}
